@@ -1,8 +1,8 @@
 @use "../abstracts/variables" as *;
 
-/* * {
-	font-family: "Poppins";
-}*/
+* {
+	font-family: "Almarai", sans-serif;
+}
 
 h1 {
 	font-size: 3vw;
@@ -25,4 +25,12 @@ p,
 a,
 button {
 	font-size: 1.5vw;
+}
+
+.fuchsia-gradient-text {
+	background: linear-gradient(180deg, #ff0f7b 50.52%, #faa143 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	text-fill-color: transparent;
 }
