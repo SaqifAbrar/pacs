@@ -1,11 +1,17 @@
 {
-  "name": "app_backend",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+	"name": "app_backend",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"server": "nodemon start"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"concurrently": "^7.3.0",
+		"dotenv": "^16.0.1",
+		"express": "^4.18.1"
+	}
 }
