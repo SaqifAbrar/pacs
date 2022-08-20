@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/dashboard/dashboard";
 import Portal from "./pages/gateway/portal";
 
-import "./App.css";
+import "./sass/main.scss";
 
 function App() {
 	return (
