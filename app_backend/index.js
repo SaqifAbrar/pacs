@@ -1,13 +1,15 @@
 const express = require("express");
-const dotenv = require("dotenv");
+//const dotenv = require("dotenv");
 const app = express();
-//const apiRoutes = require("./src/routes/routes");
+const apiRoutes = require("./src/routes/routes");
 
-//require("dotenv").config();
+require("dotenv").config();
 //app.use(express.json());
 
+app.get("/", (req, res) => res.send({ message: "accessed backend" }));
+
 // pacs routes
-//app.use("/api", apiRoutes);
+app.use("/api", apiRoutes);
 
 const port = process.env.PORT || 6000;
 
