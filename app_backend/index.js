@@ -9,7 +9,7 @@ require("dotenv").config();
 app.get("/", (req, res) => res.send({ message: "accessed backend" }));
 
 // pacs routes
-app.use("/api", apiRoutes);
+app.use("/api/v1", apiRoutes);
 
 const port = process.env.PORT || 6000;
 
