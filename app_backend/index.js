@@ -6,7 +6,7 @@ const app = express();
 //require("dotenv").config();
 //app.use(express.json());
 
-// location routes
+// pacs routes
 //app.use("/api", apiRoutes);
 
 const port = process.env.PORT || 6000;
