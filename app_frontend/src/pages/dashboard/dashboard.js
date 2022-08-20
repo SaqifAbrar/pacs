@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import './App.css';
 
 function Dashboard() {
@@ -13,3 +14,10 @@ function Dashboard() {
 }
 
 export default Dashboard;
+=======
+import React from "react";
+
+export default function Dashboard() {
+	return <div>Dashboard</div>;
+}
+>>>>>>> 51cfff88f30e1256dfbf743b2163fe266645f922
