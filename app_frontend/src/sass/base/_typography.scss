@@ -1,0 +1,16 @@
+@use "../abstracts/variables" as *;
+
+/* * {
+	font-family: "Poppins";
+}*/
+
+h1 {
+	font-size: 3vw;
+	font-weight: 700;
+}
+
+p,
+a,
+button {
+	font-size: 1.5vw;
+}
