@@ -3,9 +3,7 @@ import './App.css';
 function Dashboard() {
   return (
     <div className="Dashboard">
-      <h1>
-        BITHCES
-      </h1>
+      
       
 
 
