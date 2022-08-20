@@ -1,0 +1,8 @@
+@use "../abstracts/variables" as *;
+
+
+.dashboard-container {
+    display: flex;
+    flex-direction: row;
+    background-color: orangered;
+}
