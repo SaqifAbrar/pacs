@@ -1,5 +1,4 @@
 const router = require("express").Router();
-const Schema =  require("../model/checkout")
 const fs = require("fs")
 
 router.post("/", (req, res) => {
@@ -9,6 +8,10 @@ router.post("/", (req, res) => {
 
 router.get("/", (req, res) => {
 	res.send({ message: "accessed order route" });
+});
+
+router.get("/initial", (req, res) => {
+	res.send({ data: dummyData });
 });
 
 router.get("/:id", (req, res) => {

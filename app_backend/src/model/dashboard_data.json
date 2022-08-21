@@ -1,0 +1,47 @@
+[
+	{
+		"uid": 1,
+		"company_name": "Loblaws",
+		"product_name": "Acer Aspire 3 15.6 inch Laptop - Silver (AMD Ryzen R3-3250U/512GB/8GB RAM/Windows 11)",
+		"MM-DD-YYYY": "01/02/2022",
+		"status_pill": "Ready for Pickup",
+		"lock_num": "A22",
+		"lock_key": "B9G84GHJ"
+	},
+	{
+		"uid": 2,
+		"company_name": "Bell",
+		"product_name": "some sorta phone plan idek bruh",
+		"MM-DD-YYYY": "01/02/2022",
+		"status_pill": "Ready for Pickup",
+		"lock_num": "B1",
+		"lock_key": "N8G3FY6"
+	},
+	{
+		"uid": 3,
+		"company_name": "Loblaws",
+		"product_name": "Acer Aspire 3 15.6 inch Laptop - Silver (AMD Ryzen R3-3250U/512GB/8GB RAM/Windows 11)",
+		"MM-DD-YYYY": "01/02/2022",
+		"status_pill": "Ready for Pickup",
+		"lock_num": "F5",
+		"lock_key": "0G8JHW4"
+	},
+	{
+		"uid": 4,
+		"company_name": "Loblaws",
+		"product_name": "Acer Aspire 3 15.6 inch Laptop - Silver (AMD Ryzen R3-3250U/512GB/8GB RAM/Windows 11)",
+		"MM-DD-YYYY": "01/02/2022",
+		"status_pill": "Ready for Pickup",
+		"lock_num": "A22",
+		"lock_key": "B9G84GHJ"
+	},
+	{
+		"uid": 5,
+		"company_name": "Bell",
+		"product_name": "some sorta phone plan idek bruh",
+		"MM-DD-YYYY": "01/02/2022",
+		"status_pill": "Ready for Pickup",
+		"lock_num": "B1",
+		"lock_key": "N8G3FY6"
+	}
+]
