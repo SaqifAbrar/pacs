@@ -1,0 +1,27 @@
+@use "../abstracts/variables" as *;
+
+.portal-page {
+	height: 100%;
+	box-sizing: border-box;
+	padding: 5vw 20vw;
+	background-color: $offwhite-pink;
+
+	.portal-container {
+		min-height: 100%;
+		box-sizing: border-box;
+		padding: 5vw 7.5vw;
+		color: white;
+
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-evenly;
+
+		background: linear-gradient(130.31deg, #ff0f7b 0%, #faa143 100%);
+		border-radius: 30px;
+	}
+
+	.intro-container {
+		text-align: center;
+	}
+}
