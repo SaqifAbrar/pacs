@@ -11,7 +11,7 @@ router.get("/", (req, res) => {
 });
 
 router.get("/initial", (req, res) => {
-	res.send({ data: dummyData });
+	res.send(dummyData);
 });
 
 router.get("/:id", (req, res) => {
