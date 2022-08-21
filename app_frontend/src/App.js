@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Checkout from "./pages/checkout/checkout";
 import Dashboard from "./pages/dashboard/dashboard";
 import Portal from "./pages/gateway/portal";
 
@@ -12,7 +13,7 @@ function App() {
 				<Routes>
 					<Route path="/dashboard" element={<Dashboard />} />
 					<Route path="/portal" element={<Portal />} />
-					<Route path="/cart" element={<Portal />} />
+					<Route path="/cart" element={<Checkout />} />
 					<Route path="*" element={<Dashboard />} />
 				</Routes>
 			</Router>
