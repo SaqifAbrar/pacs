@@ -20,12 +20,18 @@ export default function Portal() {
 					</p>
 				</div>
 				<div className="map-container">
-					<span className="map-placeholder"></span>
+					<span className="map-placeholder" />
 				</div>
 				<div className="selection-container">
 					<h3>80 Spadina Ave. 4th Floor, Toronto, ON M5V 2J4</h3>
 				</div>
-				<div className="submit-container"></div>
+				<div className="submit-container">
+					<button className="send-btn">
+						<span className="fuchsia-gradient-text">
+							Send this to my locker!
+						</span>
+					</button>
+				</div>
 			</div>
 		</div>
 	);
