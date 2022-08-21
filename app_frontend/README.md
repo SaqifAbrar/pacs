@@ -1,3 +1,11 @@
+# FRONT END ENDPOINTS
+Currently this app is for demonstration's purposes. While the client-side navigation has been logically created, there is no way to interact with the changes. Please use the following endpoints (append to localhost:3000)
+
+/dashboard
+/portal
+/cart
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
