@@ -1,15 +1,15 @@
 syntax = "proto3";
 
-message Product {
-    string productName = 1;
-    double price = 2;
-    Dimensions productSize = 3;
-}
-
 message Dimensions {
     float lengthInCm = 1;
     float widthInCm = 2;
     float hightInCm = 3;
+}
+
+message Product {
+    string productName = 1;
+    double price = 2;
+    Dimensions productSize = 3;
 }
 
 message Checkout {

@@ -1,4 +1,11 @@
 const router = require("express").Router();
+const Schema =  require("../model/checkout")
+const fs = require("fs")
+
+router.post("/", (req, res) => {
+	console.log(req.body);
+	res.status(200).json({ status: "Checkout Post Success!", data: req.body });
+});
 
 router.get("/", (req, res) => {
 	res.send({ message: "accessed order route" });
