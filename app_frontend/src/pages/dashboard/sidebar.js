@@ -4,7 +4,7 @@ export default function Sidebar() {
   return (
     <div className="sidebar-component">
       <br />
-      <h2 className="sidebar-text sidebar-welcome"> Welcome Back!</h2>
+      <h3 className="sidebar-text sidebar-welcome"> Welcome Back!</h3>
       <br />
       <div className="sidebar-headings">
         <div className="sidebar-links">
