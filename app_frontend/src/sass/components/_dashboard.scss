@@ -1,8 +1,28 @@
 @use "../abstracts/variables" as *;
 
+.dashboard-page {
+    background-color: black;
+}
+
 
 .dashboard-container {
     display: flex;
     flex-direction: row;
-    background-color: orangered;
+    background-color:#FFF1FA;
+
 }
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  tr:hover {background-color: grey;}
