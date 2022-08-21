@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import axios from "axios";
 
 export default function Portal() {
+	useEffect(() => {
+		const fetchData = async () => {
+			try {
+				const response = await axios.get(`/api/v1`);
+				console.log(response);
+			} catch (err) {}
+		};
+		fetchData();
+	}, []);
+
 	return (
 		<div className="portal-page">
 			<div className="portal-container">
