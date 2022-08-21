@@ -1,7 +1,52 @@
 .sidebar-component {
     width: 20vw;
     height: inherit;
-    background-color: purple;
-    padding-bottom: 50vh;
+    
+    /* Sidebar Container */
+    /* Auto layout */
 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 12px 11px 0px;
+    gap: 29px;
+
+    background: linear-gradient(172.65deg, #FF0F7B 0%, #FAA143 100%);
+    border-radius: 0px 20px 20px 0px;
+
+   padding-bottom: 5vh;
+
+}
+
+.sidebar-text {
+    color: white;
+    font-weight: normal;
+    margin: 0;
+    padding-left: 1vw;
+    padding-bottom: 1vw;
+    font-family: "Poppins", sans-serif;
+}
+
+.sidebar-welcome {
+    align-self: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.sidebar-headings {
+    padding-left: 2.5vw;
+    width: 17.5vw;
+}
+
+.sidebar-icons {
+    color: white;
+}
+
+.sidebar-links {
+    display: flex;
+    flex-direction: row;
+    vertical-align: text-top;
+}
+
+.logout-gap {
+    padding-top: 20vh;
 }
