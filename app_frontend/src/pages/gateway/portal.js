@@ -1,6 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
+import axios from "axios";
 
 export default function Portal() {
+	useEffect(() => {
+		const fetchData = async () => {
+			try {
+				const response = await axios.get(`/api/v1`);
+				console.log(response);
+			} catch (err) {}
+		};
+		fetchData();
+	}, []);
+
 	return (
 		<div className="portal-page">
 			<div className="portal-container">
@@ -20,12 +32,20 @@ export default function Portal() {
 					</p>
 				</div>
 				<div className="map-container">
-					<span className="map-placeholder"></span>
+					<span className="map-placeholder" />
 				</div>
 				<div className="selection-container">
 					<h3>80 Spadina Ave. 4th Floor, Toronto, ON M5V 2J4</h3>
 				</div>
-				<div className="submit-container"></div>
+				<div className="submit-container">
+					<button className="send-btn">
+						<Link to="/cart">
+							<span className="fuchsia-gradient-text">
+								Send this to my locker!
+							</span>
+						</Link>
+					</button>
+				</div>
 			</div>
 		</div>
 	);

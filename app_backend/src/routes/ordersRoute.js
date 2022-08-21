@@ -1,7 +1,12 @@
 const router = require("express").Router();
+const dummyData = require("../model/dashboard_data.json");
 
 router.get("/", (req, res) => {
 	res.send({ message: "accessed order route" });
+});
+
+router.get("/initial", (req, res) => {
+	res.send({ data: dummyData });
 });
 
 router.get("/:id", (req, res) => {
