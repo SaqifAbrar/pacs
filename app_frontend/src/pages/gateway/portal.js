@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Portal() {
 	return (
@@ -27,9 +28,11 @@ export default function Portal() {
 				</div>
 				<div className="submit-container">
 					<button className="send-btn">
-						<span className="fuchsia-gradient-text">
-							Send this to my locker!
-						</span>
+						<Link to="/cart">
+							<span className="fuchsia-gradient-text">
+								Send this to my locker!
+							</span>
+						</Link>
 					</button>
 				</div>
 			</div>
